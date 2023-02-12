@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "F:\iti\xml\Lab-1\xml-lab1\newXMLDocument.dtd">
+
+
+
+<library>
+    <location>&My_loction;</location>
+    <description>Book Store</description>
+    <librarian>Mostafa</librarian>
+    
+    <books>
+        <book category="children" isbn="12">
+            <title>Leage of legends</title>
+            <author gander="M">J K. Rowling</author>
+            <year>2023</year>
+            <price>60</price>
+            <chapters>
+                <chapter id="324">
+                    <title>One</title>
+                    <summary>Summery of the chapter</summary>
+                    <sections>
+                        <![CDATA[ 
+                            The first section containe &"'
+                        
+                        ]]>
+                    </sections>
+                </chapter>
+                <chapter id="12">
+                    <title>One</title>
+                    <summary>Summery of the chapter</summary>
+                    <sections>
+                        <![CDATA[ 
+                            The first section containe &"'
+                        
+                        ]]>
+                    </sections>
+                </chapter>
+                <chapter id="3">
+                    <title>One</title>
+                    <summary>Summery of the chapter</summary>
+                    <sections>
+                        <![CDATA[ 
+                            The first section containe &"'
+                        
+                        ]]>
+                    </sections>
+                </chapter>
+            </chapters>
+        </book>
+        <book category="web" isbn="12">
+            <title>Steal like an artisit</title>
+            <author>Mostafa Ahmed</author>
+            <year>1998</year>
+            <price>100</price>
+            <chapters>
+                <chapter id="342">
+                    <title>One</title>
+                    <summary>Summery of the chapter</summary>
+                    <sections>
+                        <![CDATA[ 
+                            The first section containe &"'
+                        
+                        ]]>
+                    </sections>
+                </chapter>
+                <chapter id="43">
+                    <title>One</title>
+                    <summary>Summery of the chapter</summary>
+                    <sections>
+                        <![CDATA[ 
+                            The first section containe &"'
+                        
+                        ]]>
+                    </sections>
+                </chapter>
+                <chapter id="49">
+                    <title>One</title>
+                    <summary>Summery of the chapter</summary>
+                    <sections>
+                        <![CDATA[ 
+                            The first section containe &"'
+                        
+                        ]]>
+                    </sections>
+                </chapter>
+            </chapters>
+            
+        </book>
+    </books>
+</library>
+

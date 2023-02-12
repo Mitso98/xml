@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ENTITY My_loction "241 El-Haram st. Giza">
+
+<!ELEMENT library (location,description,librarian,books)*>
+
+
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT librarian (#PCDATA)>
+
+
+<!ELEMENT books (book*)>
+<!ELEMENT book (title|author|year|price|chapters)*>
+<!ATTLIST book
+    category CDATA #IMPLIED
+    isbn CDATA #REQUIRED
+  >
+
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+    gander (M|F) "M"
+  >
+
+<!ELEMENT year (#PCDATA)>
+
+<!ELEMENT price (#PCDATA)>
+
+<!ELEMENT chapters (chapter)*>
+
+<!ELEMENT chapter (title|summary|sections)*>
+<!ATTLIST chapter
+    id CDATA #REQUIRED 
+  >
+
+
+<!ELEMENT summary (#PCDATA)>
+
+
+<!ELEMENT sections (#PCDATA)>

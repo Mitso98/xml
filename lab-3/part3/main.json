@@ -1,0 +1,19 @@
+{
+  "LibraryManual": "Itians",
+  "Author": "Mostafa Ahmed",
+  "preface": "Hello",
+  "parts": [
+    {
+      "summary": "Mostafa Ahmed",
+      "content": "Some text here about the book"
+    },
+    {
+      "summary": "Mostafa Ahmed",
+      "content": "Some text here about the book"
+    },
+    {
+      "summary": "Mostafa Ahmed",
+      "content": "Some text here about the book"
+    }
+  ]
+}
